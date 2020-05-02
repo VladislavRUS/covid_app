@@ -1,0 +1,1 @@
+export { PreventionItem } from './PreventionItem';
