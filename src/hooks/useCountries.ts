@@ -10,7 +10,7 @@ type CountriesState = {
 export const useCountries = () => {
   const [countriesState, setCountriesState] = useState<CountriesState>({
     countries: [],
-    isFetching: true,
+    isFetching: false,
   });
 
   useEffect(() => {
