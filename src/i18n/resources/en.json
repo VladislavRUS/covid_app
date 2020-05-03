@@ -4,6 +4,7 @@
   "cases.newestUpdate": "Newest update {{date}}",
   "cases.seeDetails": "See details",
   "cases.virusSpread": "Spread of Virus",
+  "cases.countryPlaceholder": "Select country",
   "statistics.infected": "Infected",
   "statistics.deaths": "Deaths",
   "statistics.recovered": "Recovered",

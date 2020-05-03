@@ -4,6 +4,7 @@
   "cases.newestUpdate": "Последнее обновление {{date}}",
   "cases.seeDetails": "Подробнее",
   "cases.virusSpread": "Распространение вируса",
+  "cases.countryPlaceholder": "Выберите страну",
   "statistics.infected": "Заражений",
   "statistics.deaths": "Смертей",
   "statistics.recovered": "Выздоровело",
