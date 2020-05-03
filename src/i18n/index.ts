@@ -21,7 +21,7 @@ i18n
   .init({
     resources,
     keySeparator: false,
-    lng: 'ru',
+    lng: 'en',
   });
 
 export const getLocalizedCountryName = (countryCode: string, language: string) => {
