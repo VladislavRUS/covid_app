@@ -20,8 +20,9 @@ export const MapImageWrapper = styled.View`
   height: 178px;
   border-radius: 20px;
   flex-grow: 1;
-  elevation: 2;
   background-color: #fff;
+  box-shadow: 0 8px 24px rgba(183, 183, 183, 0.16);
+  elevation: 2;
 `;
 
 export const MapImage = styled.Image.attrs({

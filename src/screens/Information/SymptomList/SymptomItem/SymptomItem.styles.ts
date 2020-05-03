@@ -8,8 +8,9 @@ export const Wrapper = styled.View<{ isLast: boolean }>`
   height: 111px;
   border-radius: 15px;
   background-color: #fff;
-  elevation: 2;
   margin-right: ${(props) => (props.isLast ? 0 : 11)}px;
+  box-shadow: 0 8px 24px rgba(183, 183, 183, 0.16);
+  elevation: 2;
 `;
 
 export const Images = styled.View`

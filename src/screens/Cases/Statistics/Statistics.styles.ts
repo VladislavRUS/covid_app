@@ -6,6 +6,7 @@ export const Wrapper = styled.View`
   align-items: center;
   background-color: #fff;
   border-radius: 20px;
-  elevation: 2;
   padding: 15px 0;
+  box-shadow: 0 8px 24px rgba(183, 183, 183, 0.16);
+  elevation: 2;
 `;
