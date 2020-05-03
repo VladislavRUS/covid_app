@@ -13,6 +13,7 @@ export const GradientBackground = styled(LinearGradient).attrs({
 `;
 
 export const ScrollableWrapper = styled(Animated.ScrollView)`
+  position: relative;
   background-color: #fff;
 `;
 

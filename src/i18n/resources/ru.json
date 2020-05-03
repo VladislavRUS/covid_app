@@ -1,0 +1,20 @@
+{
+  "cases.title": "Все, что нужно -\nоставаться дома.",
+  "cases.caseUpdate": "Новые случаи",
+  "cases.newestUpdate": "Последнее обновление {{date}}",
+  "cases.seeDetails": "Подробнее",
+  "cases.virusSpread": "Распространение вируса",
+  "statistics.infected": "Заражений",
+  "statistics.deaths": "Смертей",
+  "statistics.recovered": "Выздоровело",
+  "information.title": "Подробнее о\nCOVID-19.",
+  "information.symptoms": "Симптомы",
+  "information.prevention": "Профилактика",
+  "symptom.headache": "Головная боль",
+  "symptom.cough": "Кашель",
+  "symptom.fever": "Жар",
+  "prevention.mask.title": "Маска",
+  "prevention.mask.description": "С момента начала вспышки коронавируса в некоторых местах обязательно ношение маски, в противном случае возможен штраф",
+  "prevention.hands.title": "Мытье рук",
+  "prevention.hands.description": "Заболевания включают желудочно-кишечные инфекции, такие как сальмонелла и расператорные инфекции, такие как грипп"
+}

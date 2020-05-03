@@ -1,4 +1,4 @@
 export class Routes {
   static CASES = 'cases';
-  static INFO = 'info';
+  static INFORMATION = 'information';
 }

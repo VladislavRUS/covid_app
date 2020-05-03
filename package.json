@@ -7,14 +7,19 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "prettier": "prettier ./**/*.{js,jsx,ts,tsx,json,css,scss,md} --write"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.9.0",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.2.1",
     "@react-navigation/stack": "^5.2.16",
     "@types/styled-components": "^5.1.0",
+    "i18n-iso-countries": "^5.2.0",
+    "i18next": "^19.4.4",
     "react": "16.11.0",
+    "react-i18next": "^11.4.0",
     "react-native": "0.62.2",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-linear-gradient": "^2.5.6",

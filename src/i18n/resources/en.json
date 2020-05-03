@@ -1,0 +1,20 @@
+{
+  "cases.title": "All you need\nis stay at home.",
+  "cases.caseUpdate": "Case Update",
+  "cases.newestUpdate": "Newest update {{date}}",
+  "cases.seeDetails": "See details",
+  "cases.virusSpread": "Spread of Virus",
+  "statistics.infected": "Infected",
+  "statistics.deaths": "Deaths",
+  "statistics.recovered": "Recovered",
+  "information.title": "Get to know\nAbout Covid-19.",
+  "information.symptoms": "Symptomps",
+  "information.prevention": "Prevention",
+  "symptom.headache": "Headache",
+  "symptom.cough": "Cough",
+  "symptom.fever": "fever",
+  "prevention.mask.title": "Wear face mask",
+  "prevention.mask.description": "Since the start of the coronavirus outbreak some places have fully embraced wearing face masks, and anyone caught without one risks becoming a social pariah.",
+  "prevention.hands.title": "Wash your hands",
+  "prevention.hands.description": "These diseases include gastrointestinal infections, such as Salmonella, and respiratory infections, such as influenza."
+}

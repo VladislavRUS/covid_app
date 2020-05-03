@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Wrapper, CoronaImage } from './Coronas.styles';
 import { Animated } from 'react-native';
 
@@ -36,19 +36,19 @@ const coronas = [
 ];
 
 const Coronas = () => {
-  const animatedValues = coronas.map(() => new Animated.Value(20));
-
-  let animations = coronas.map((_, idx) =>
-    Animated.spring(animatedValues[idx], {
-      toValue: new Animated.Value(0),
-      stiffness: 200,
-      useNativeDriver: true,
-    }),
-  );
+  const [animatedValues] = useState(coronas.map(() => new Animated.Value(20)));
 
   useEffect(() => {
+    const animations = coronas.map((_, idx) =>
+      Animated.spring(animatedValues[idx], {
+        toValue: new Animated.Value(0),
+        stiffness: 200,
+        useNativeDriver: true,
+      }),
+    );
+
     Animated.stagger(50, animations).start();
-  }, [animations]);
+  }, [animatedValues]);
 
   return (
     <Wrapper>
